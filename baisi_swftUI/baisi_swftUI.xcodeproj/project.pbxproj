@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A933503327E45A1500E0C161 /* baisi_swftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933503227E45A1500E0C161 /* baisi_swftUIApp.swift */; };
-		A933503527E45A1500E0C161 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933503427E45A1500E0C161 /* ContentView.swift */; };
+		A933503327E45A1500E0C161 /* BaiSiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A933503227E45A1500E0C161 /* BaiSiApp.swift */; };
 		A933503727E45A1700E0C161 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933503627E45A1700E0C161 /* Assets.xcassets */; };
 		A933503A27E45A1700E0C161 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A933503927E45A1700E0C161 /* Preview Assets.xcassets */; };
+		A9FA8F3627E48C7100B3C4E7 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA8F3527E48C7100B3C4E7 /* RootView.swift */; };
+		A9FA8F3D27E48DAD00B3C4E7 /* Essence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA8F3C27E48DAD00B3C4E7 /* Essence.swift */; };
+		A9FA8F4027E48DBA00B3C4E7 /* New.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA8F3F27E48DBA00B3C4E7 /* New.swift */; };
+		A9FA8F4327E48DC800B3C4E7 /* FriendTrends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA8F4227E48DC800B3C4E7 /* FriendTrends.swift */; };
+		A9FA8F4627E48DD400B3C4E7 /* Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FA8F4527E48DD400B3C4E7 /* Me.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A933502F27E45A1500E0C161 /* baisi_swftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baisi_swftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A933503227E45A1500E0C161 /* baisi_swftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baisi_swftUIApp.swift; sourceTree = "<group>"; };
-		A933503427E45A1500E0C161 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A933503227E45A1500E0C161 /* BaiSiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaiSiApp.swift; sourceTree = "<group>"; };
 		A933503627E45A1700E0C161 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A933503927E45A1700E0C161 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A933503B27E45A1700E0C161 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9FA8F3527E48C7100B3C4E7 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A9FA8F3C27E48DAD00B3C4E7 /* Essence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Essence.swift; sourceTree = "<group>"; };
+		A9FA8F3F27E48DBA00B3C4E7 /* New.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = New.swift; sourceTree = "<group>"; };
+		A9FA8F4227E48DC800B3C4E7 /* FriendTrends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTrends.swift; sourceTree = "<group>"; };
+		A9FA8F4527E48DD400B3C4E7 /* Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Me.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +60,9 @@
 		A933503127E45A1500E0C161 /* baisi_swftUI */ = {
 			isa = PBXGroup;
 			children = (
-				A933503227E45A1500E0C161 /* baisi_swftUIApp.swift */,
-				A933503427E45A1500E0C161 /* ContentView.swift */,
+				A933503227E45A1500E0C161 /* BaiSiApp.swift */,
+				A9FA8F3027E48C1A00B3C4E7 /* Classes */,
+				A9FA8F2F27E48BE700B3C4E7 /* RootView */,
 				A933503627E45A1700E0C161 /* Assets.xcassets */,
 				A933503B27E45A1700E0C161 /* Info.plist */,
 				A933503827E45A1700E0C161 /* Preview Content */,
@@ -67,6 +76,57 @@
 				A933503927E45A1700E0C161 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9FA8F2F27E48BE700B3C4E7 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F3527E48C7100B3C4E7 /* RootView.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		A9FA8F3027E48C1A00B3C4E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F3827E48D7400B3C4E7 /* Essence-精华 */,
+				A9FA8F3927E48D7F00B3C4E7 /* New-新帖 */,
+				A9FA8F3A27E48D8600B3C4E7 /* FriendTrends-关注 */,
+				A9FA8F3B27E48D9100B3C4E7 /* Me-我 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A9FA8F3827E48D7400B3C4E7 /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F3C27E48DAD00B3C4E7 /* Essence.swift */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		A9FA8F3927E48D7F00B3C4E7 /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F3F27E48DBA00B3C4E7 /* New.swift */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		A9FA8F3A27E48D8600B3C4E7 /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F4227E48DC800B3C4E7 /* FriendTrends.swift */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		A9FA8F3B27E48D9100B3C4E7 /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				A9FA8F4527E48DD400B3C4E7 /* Me.swift */,
+			);
+			path = "Me-我";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +198,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A933503527E45A1500E0C161 /* ContentView.swift in Sources */,
-				A933503327E45A1500E0C161 /* baisi_swftUIApp.swift in Sources */,
+				A9FA8F4327E48DC800B3C4E7 /* FriendTrends.swift in Sources */,
+				A9FA8F4027E48DBA00B3C4E7 /* New.swift in Sources */,
+				A933503327E45A1500E0C161 /* BaiSiApp.swift in Sources */,
+				A9FA8F3D27E48DAD00B3C4E7 /* Essence.swift in Sources */,
+				A9FA8F4627E48DD400B3C4E7 /* Me.swift in Sources */,
+				A9FA8F3627E48C7100B3C4E7 /* RootView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

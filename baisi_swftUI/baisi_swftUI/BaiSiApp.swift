@@ -11,7 +11,7 @@ import SwiftUI
 struct baisi_swftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }
