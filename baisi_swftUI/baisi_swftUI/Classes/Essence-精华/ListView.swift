@@ -19,8 +19,6 @@ struct ListView: View {
                     }
                 }
             }
-//            .background(Color("cell"))
-
         }
     }
     
