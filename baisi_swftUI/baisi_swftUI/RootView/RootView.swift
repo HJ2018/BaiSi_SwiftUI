@@ -40,28 +40,28 @@ struct RootView: View {
         
         var image: Image {
             switch self {
-            case .essence:     return Image("tabBar_essence")
-            case .new:  return Image("tabBar_new")
+            case .essence:      return Image("tabBar_essence")
+            case .new:          return Image("tabBar_new")
             case .friendTrends: return Image("tabBar_friendTrends")
-            case .me:       return Image("tabBar_me")
+            case .me:           return Image("tabBar_me")
             }
         }
         
         var selectedImage: Image {
             switch self {
-            case .essence:     return Image("tabBar_essence_click_icon")
-            case .new:  return Image("tabBar_new_click_icon")
+            case .essence:      return Image("tabBar_essence_click_icon")
+            case .new:          return Image("tabBar_new_click_icon")
             case .friendTrends: return Image("tabBar_friendTrends_click_icon")
-            case .me:       return Image("tabBar_me_click_icon")
+            case .me:           return Image("tabBar_me_click_icon")
             }
         }
         
         var title: String {
             switch self {
-            case .essence:     return "精华"
-            case .new:  return "热帖"
+            case .essence:      return "精华"
+            case .new:          return "热帖"
             case .friendTrends: return "关注"
-            case .me:       return "我的"
+            case .me:           return "我的"
             }
         }
 
