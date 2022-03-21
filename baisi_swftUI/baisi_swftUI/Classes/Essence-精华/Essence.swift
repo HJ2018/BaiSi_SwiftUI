@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct Essence: View {
+    
+    
     var body: some View {
-        Text("精华!")
+        ZStack {
+            VStack {
+                Color("light_gray")
+            }
+            ListView()
+        }
     }
 }
 
