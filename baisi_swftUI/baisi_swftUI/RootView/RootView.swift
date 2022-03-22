@@ -19,6 +19,11 @@ struct RootView: View {
                 New()
                     .tabItem { Item(type: .new, selection: selection) }
                     .tag(ItemType.new.rawValue)
+                
+                Text("发布")
+                    .tabItem {(Item(type: .publish, selection: selection))}
+                    .tag(ItemType.publish.rawValue)
+                
                 FriendTrends()
                     .tabItem { Item(type: .friendTrends, selection: selection) }
                     .tag(ItemType.friendTrends.rawValue)
@@ -35,6 +40,7 @@ struct RootView: View {
     enum ItemType: Int {
         case essence
         case new
+        case publish
         case friendTrends
         case me
         
@@ -42,6 +48,7 @@ struct RootView: View {
             switch self {
             case .essence:      return Image("tabBar_essence")
             case .new:          return Image("tabBar_new")
+            case .publish:       return Image("tabBar_publish")
             case .friendTrends: return Image("tabBar_friendTrends")
             case .me:           return Image("tabBar_me")
             }
@@ -51,6 +58,7 @@ struct RootView: View {
             switch self {
             case .essence:      return Image("tabBar_essence_click_icon")
             case .new:          return Image("tabBar_new_click_icon")
+            case .publish:      return Image("tabBar_publish_click_icon")
             case .friendTrends: return Image("tabBar_friendTrends_click_icon")
             case .me:           return Image("tabBar_me_click_icon")
             }
@@ -60,6 +68,7 @@ struct RootView: View {
             switch self {
             case .essence:      return "精华"
             case .new:          return "热帖"
+            case .publish:      return ""
             case .friendTrends: return "关注"
             case .me:           return "我的"
             }
@@ -78,7 +87,7 @@ struct RootView: View {
                 } else {
                     type.image
                 }
-                
+         
                 Text(type.title)
             }
         }

@@ -27,7 +27,7 @@ struct ListRow: View {
                         .padding(EdgeInsets.init(top: 15, leading: 5, bottom: 15, trailing: 0))
                     Spacer()
                     Text("2022-10-10")
-                        .font(.system(size: 10))
+                        .font(.system(size: 12))
                         .foregroundColor(.secondary)
                         .padding(EdgeInsets.init(top: 15, leading: 5, bottom: 0, trailing: 10))
                 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     
-    @State private var data: [String] = ["1","2","3","4","5"]
+    @State private var data: [String] = ["1","2","3","4","5","6","7","8","9","10"]
     var body: some View {
         ScrollView {
             LazyVStack(spacing: 0) {
